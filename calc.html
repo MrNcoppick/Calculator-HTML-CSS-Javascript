@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+    <script src="http://nerdamer.com/js/nerdamer.core.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="window" id="window"></div>
+    <div class="calculator">
+      <div class="box" onclick="action('&#128516')">&#128516</div>
+      <div class="box" onclick="action('(')">(</div>
+      <div class="box" onclick="action(')')">)</div>
+      <div class="box" onclick="remove()">Clear</div>
+      <div class="box" onclick="action(1)">1</div>
+      <div class="box" onclick="action(2)">2</div>
+      <div class="box" onclick="action(3)">3</div>
+      <div class="box" onclick="action('+')">+</div>
+      <div class="box" onclick="action(4)">4</div>
+      <div class="box" onclick="action(5)">5</div>
+      <div class="box" onclick="action(6)">6</div>
+      <div class="box" onclick="action('-')">-</div>
+      <div class="box" onclick="action(7)">7</div>
+      <div class="box" onclick="action(8)">8</div>
+      <div class="box" onclick="action(9)">9</div>
+      <div class="box" onclick="action('*')">*</div>
+      <div class="box" id="empty"></div>
+      <div class="box" onclick="action(0)">0</div>
+      <div class="box" onclick="action('/')">/</div>
+      <div class="box" onclick="answer()">=</div>
+    </div>
+  </body>
+</html>
